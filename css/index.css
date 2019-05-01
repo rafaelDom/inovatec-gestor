@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chau Philomene One', sans-serif;
+    background-color: #eed254;
+}
+
+header {
+    padding: 1% 2% 1% 5%;
+    margin: 1%;
+    border-radius: 50px; 
+    font-size: 2rem;
+    background-color: black;
+    color: aliceblue;
+}
+header img{
+    padding-right: 10px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#cliente{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    background-color:black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 40px;
+}
+#os{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    background-color:black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 40px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
